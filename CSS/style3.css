@@ -4,6 +4,7 @@
     height: 60px;
     padding-top: 15px;
 }
+
 #header a {
     text-decoration: none;
     border: 1px solid #e74c3c;
@@ -19,19 +20,23 @@
     height: 24px;
     text-align: center;
 }
+
 #section {
     margin: 10px;
     padding: 10px;
     color: rgba(56, 90, 100, 1);
 }
+
 #section h5 {
     margin-top: 100px;
     padding: 20px;
     padding-left: 0%;
 }
+
 #section p {
     margin-top: 30px;
 }
+
 #section a {
     background: #e74c3c;
     border-radius: 50px;
@@ -39,6 +44,7 @@
     padding: 5px 35px 5px 35px;
     margin-top: 30px;
 }
+
 #section img {
     width: 500px;
     height: 576px;
@@ -56,51 +62,67 @@
     background: #FAFAFA;
     border-radius: 50%;
 }
+
 #journal1 {
     margin: 50px 100px 0 100px;
     padding: 50px;
     color: rgba(56, 90, 100, 1);
 }
+
 #journal1 img {
     margin-left: 50px;
     width: 300px;
     height: 350px;
 }
+
 #journal2 {
     background: #FAFAFA;
-    margin: 0 100px 50px 100px;
-    padding: 70px;
+    width: 100%;
+    padding: 80px 250px 50px 250px;
     color: rgba(56, 90, 100, 1);
 }
+
 #journal3 {
-    margin: 50px 100px 50px 100px;
+    margin: 50px 180px 50px 180px;
     padding: 50px;
     color: rgba(56, 90, 100, 1);
 }
+
 #journal3 img {
     width: 400px;
     height: 299px;
 }
+
 #jennifer {
     padding: 50px;
     margin: 50px;
     color: rgba(56, 90, 100, 1);
 }
+
 #jenni img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     margin: 25px;
 }
+
 #jenni p {
     padding-left: 65px;
 }
+
 #jenni h6 {
     padding-left: 35px;
 }
+
 #jennifer h2 {
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 60px;
+}
+#jennifer i {
+    color: #B8B8B8;
+    font-size: 25px;
+    margin: 90px 10px 0 50px;
 }
 #sign {
     text-decoration: none;
@@ -109,8 +131,9 @@
     border-radius: 50px;
     width: 150px;
     padding: 10px;
-    margin: 0 0 50px 0
+    margin: 0 0 70px 0
 }
+
 #footer {
     background: #1A2E35;
     color: #FFFFFF;
@@ -119,6 +142,7 @@
     text-align: left;
     padding-top: 50px;
 }
+
 #icon {
     background: #121f24;
     width: 23px;
@@ -132,6 +156,7 @@
         display: flex;
         flex-direction: row;
     }
+
     #section {
         text-align: start;
         padding-top: 10px;
@@ -141,14 +166,17 @@
         flex-direction: column;
         margin-left: 10px;
     }
+
     #section a {
         margin-top: 20px;
     }
+
     #section img {
         width: 100%;
         height: 350px;
         margin-top: 20px;
     }
+
     #journal1,
     #journal2,
     #journal3,
@@ -161,33 +189,41 @@
         flex-direction: column;
         font-size: 14px;
     }
+
     h3,
     h2 {
         font-size: 20px;
         margin-top: 5px;
     }
+
     h5 {
         font-size: 15px;
 
     }
+
     #junnifer {
         padding: 15px;
         margin: 0;
     }
+
     #junnifer h2 {
         text-align: left;
     }
+
     #jenni {
         margin-right: 70px;
     }
-    p{
+
+    p {
         padding-top: 5px;
     }
+
     .service-box {
         text-align: center;
         margin-bottom: 30px;
         font-size: 14px;
     }
+
     #footer {
         text-align: center;
         padding: 10px 0;
@@ -197,6 +233,6 @@
         display: flex;
         flex-direction: column;
     }
-    
-   
+
+
 }
